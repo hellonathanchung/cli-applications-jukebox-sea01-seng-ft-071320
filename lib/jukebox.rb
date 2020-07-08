@@ -48,6 +48,7 @@ def run(command)
     exit_jukebox
   elsif input.downcase == "help"
     help
+  elseif 
   elsif input.downcase == "play"
     play 
   end 
