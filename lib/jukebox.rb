@@ -46,6 +46,9 @@ def run(command)
   input = gets.strip
   if input.downcase == "exit"
     exit_jukebox
-  elsif input.downcase == 
+  elsif input.downcase == "list"
+    list 
+  elsif input.downcase == "help"
+    help
   end 
 end 
