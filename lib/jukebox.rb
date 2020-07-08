@@ -41,7 +41,7 @@ def exit_jukebox
   puts "Goodbye"
 end 
 
-def run(command)
+def run(song)
   puts "Please enter a command:"
   input = gets.strip
   if input.downcase == "exit"
