@@ -20,4 +20,9 @@ def help
 end 
 
 def list(songs)
-  songs.
+  counter = 0 
+  while counter < songs.length
+  put song[counter]
+end 
+counter += 1 
+end 
