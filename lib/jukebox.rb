@@ -21,5 +21,5 @@ end
 
 def list(songs)
 
-puts #{index + 1}
+puts "#{index + 1}. + " " + songs 
 end 
