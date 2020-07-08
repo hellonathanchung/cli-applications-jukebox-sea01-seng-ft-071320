@@ -46,5 +46,6 @@ def run(command)
   input = gets.strip
   if input.downcase == "exit"
     exit_jukebox
+  elsif 
   end 
 end 
