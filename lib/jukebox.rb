@@ -50,7 +50,7 @@ def run(command)
     list 
   elsif input.downcase == "help"
     help
-  elseif input.downcase == "play"
+  elsif input.downcase == "play"
     play 
   end 
 end 
