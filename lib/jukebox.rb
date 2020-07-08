@@ -20,6 +20,6 @@ def help
 end 
 
 def list(songs)
-
+songs.each_with
 puts "#{index + 1}. + " " + #{song}
 end 
