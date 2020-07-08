@@ -17,5 +17,5 @@ def help
     - list : displays a list of songs you can play\n 
     - play : lets you choose a song to play\n 
     - exit exits this program"
-  end 
+  
 end 
