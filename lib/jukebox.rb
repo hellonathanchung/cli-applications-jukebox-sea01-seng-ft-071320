@@ -21,5 +21,5 @@ end
 
 def list(songs)
 
-puts #{i}
+puts #{index + 1}
 end 
