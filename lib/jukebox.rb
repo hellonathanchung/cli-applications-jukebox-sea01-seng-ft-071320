@@ -30,5 +30,3 @@ def play(songs)
   input = gets.strip 
   input.downcase === songs.downcase ? "Playing #{songs}" : "Invalid input, please try again"
 end 
-  song_name
-end 
