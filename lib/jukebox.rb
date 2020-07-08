@@ -31,4 +31,3 @@ def play(songs)
   song_name === songs ? "Playing #{song}" : "Invalid input, please try again"
   song_name
 end 
-end 
