@@ -48,7 +48,8 @@ def run(song)
     exit_jukebox
   elsif input.downcase == "help"
     help
-  elseif 
+  elsif input.downcase == "list"
+    list 
   elsif input.downcase == "play"
     play 
   end 
