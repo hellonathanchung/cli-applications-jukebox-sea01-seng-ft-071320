@@ -27,6 +27,6 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  input = gets.strip 
+  input = gets.chomp  
   input.downcase == songs.downcase ? "Playing #{songs}" : "Invalid input, please try again"
 end 
