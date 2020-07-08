@@ -24,3 +24,10 @@ songs.each_with_index {|song, index|
   puts "#{index+1}. #{song}"
 }
 end 
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  song_name = gets.strip 
+  song_name == songs ? puts "Playing #{song}" : puts "Invalid input, please try again"
+  song_name
+end 
