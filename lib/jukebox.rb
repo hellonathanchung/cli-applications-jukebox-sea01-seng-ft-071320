@@ -23,3 +23,4 @@ def list(songs)
 songs.each_with_index {|song, index|
   puts "#{index+1}. #{song}"
 }
+end 
