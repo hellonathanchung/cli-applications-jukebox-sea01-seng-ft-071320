@@ -28,6 +28,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_name = gets.strip 
-  song_name === songs ? "Playing #{song}" : "Invalid input, please try again"
+  song_name === songs ? "Playing #{songs}" : "Invalid input, please try again"
   song_name
 end 
