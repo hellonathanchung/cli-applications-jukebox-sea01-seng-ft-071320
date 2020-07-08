@@ -30,6 +30,7 @@ def play(songs)
   input = gets.chomp 
   if input.to_i >= 1 && input.to_i <= songs.length 
     puts "Playing #{songs[input.to_i-1]}"
-  elsif
+  elsif songs.include?(input)
+    puts "Playing #{songs.find{|song| song == input}}"
   end 
 end 
