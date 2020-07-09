@@ -49,7 +49,7 @@ def run(song)
   elsif input.downcase == "help"
     help
   elsif input.downcase == "list"
-    list 
+    list(song) 
   elsif input.downcase == "play"
     play 
   end 
