@@ -51,6 +51,6 @@ def run(songs)
   elsif input.downcase == "list"
     list(songs) 
   elsif input.downcase == "play"
-    play 
+    play(songs)
   end 
 end 
